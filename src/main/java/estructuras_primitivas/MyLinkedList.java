@@ -5,7 +5,7 @@
 package estructuras_primitivas;
 /**
  *
- * @author ile1
+ * "Estructura de datos propia (lista enlazada) construida sin librerías externas para almacenar elementos genéricos."
  */
 public class MyLinkedList<T> {
     private Node<T> head;

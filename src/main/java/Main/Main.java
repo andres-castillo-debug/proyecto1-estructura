@@ -6,8 +6,16 @@ package main;
 import modelo_grafo.BioGraph;
 import vista.MainFrame;
 import controlador.Controller;
+/**
+ * Clase principal que arranca la aplicación BioGraph.
+ * Inicializa el modelo, la vista y el controlador.
+ */
 
 public class Main {
+     /**
+     * Método principal que ejecuta el programa.
+     * @param args Argumentos de la línea de comandos.
+     */
     public static void main(String[] args) {
         // Configuración para GraphStream
         System.setProperty("org.graphstream.ui", "swing"); 

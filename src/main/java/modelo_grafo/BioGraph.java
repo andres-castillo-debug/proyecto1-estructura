@@ -5,8 +5,8 @@
 package modelo_grafo;
 import estructuras_primitivas.MyLinkedList;
 /**
- *
- * @author ile1
+ * Clase que representa la estructura del grafo biológico.
+ * Gestiona los vértices (proteínas) y sus conexiones.
  */
 public class BioGraph {
     private MyLinkedList<Vertex> vertices;
@@ -15,7 +15,11 @@ public class BioGraph {
         this.vertices = new MyLinkedList<>();
     }
 
-    // Busca un vértice por nombre (Helper)
+    /**
+ * Busca una proteína dentro del grafo usando su nombre.
+ * @param name El nombre de la proteína a buscar.
+ * @return El vértice correspondiente o null si no se encuentra.
+ */
     public Vertex getProtein(String name) {
         for (int i = 0; i < vertices.size(); i++) {
             Vertex v = vertices.get(i);
@@ -41,7 +45,7 @@ public class BioGraph {
         }
     }
 
-    // Algoritmo Dijkstra (Requerimiento [cite: 35])
+    // Algoritmo Dijkstra (Requerimiento )
     public String dijkstra(String startName, String endName) {
         // Implementación manual requerida sin PriorityQueue de Java.
         // Lógica: 
@@ -51,7 +55,7 @@ public class BioGraph {
         return "Ruta más corta calculada...";
     }
 
-    // Algoritmo BFS para componentes conexos (Requerimiento [cite: 33])
+    // Algoritmo BFS para componentes conexos (Requerimiento)
     public String bfs_ComponentesConexos() {
         // Usar MyLinkedList como una cola (queue).
         return "Complejos proteicos identificados...";

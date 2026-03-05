@@ -8,12 +8,12 @@ import java.io.*;
 
 public class FileUtils {
     
-    // Cargar grafo desde CSV [cite: 22]
+    // Cargar grafo desde CSV 
     public static void loadGraph(String path, BioGraph graph) {
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line;
             while ((line = br.readLine()) != null) {
-                // Formato: ProteinaA, ProteinaB, Peso [cite: 52]
+                // Formato: ProteinaA, ProteinaB, Peso 
                 String[] parts = line.split(",");
                 if (parts.length == 3) {
                     String p1 = parts[0].trim();
@@ -30,7 +30,7 @@ public class FileUtils {
         }
     }
 
-    // Guardar grafo (Persistencia [cite: 27])
+    // Guardar grafo (Persistencia )
     public static void saveGraph(String path, BioGraph graph) {
         // Recorrer vértices y escribir en el archivo
     }

@@ -6,7 +6,11 @@ package vista;
 
 import javax.swing.*;
 import java.awt.*;
-
+/**
+ * Clase que representa la interfaz gráfica principal (Vista) de la aplicación BioGraph.
+ * Contiene los botones, paneles y áreas de texto necesarios para interactuar con el usuario
+ * y visualizar el grafo de interacciones proteicas.
+ */
 public class MainFrame extends JFrame {
     
     // --- BOTONES (Públicos para el Controller) ---

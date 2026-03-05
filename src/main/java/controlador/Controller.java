@@ -15,6 +15,11 @@ import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.JOptionPane;
 
+/**
+ * Controlador que conecta la vista (MainFrame) con el modelo (BioGraph).
+ * Maneja las acciones de los botones y la lógica de la interfaz.
+ */
+
 public class Controller {
     private BioGraph model;
     private MainFrame view;

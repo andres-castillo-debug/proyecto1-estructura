@@ -5,7 +5,7 @@
 package modelo_grafo;
 /**
  *
- * @author ile1
+ * "Clase que representa una arista o conexión entre dos proteínas, incluyendo su peso/resistencia."
  */
 public class Edge {
     private Vertex target;

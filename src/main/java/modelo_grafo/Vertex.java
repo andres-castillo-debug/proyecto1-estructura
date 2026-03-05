@@ -6,7 +6,10 @@ package modelo_grafo;
 import estructuras_primitivas.MyLinkedList;
 /**
  *
- * @author ile1
+ * /**
+ * Clase que representa un vértice (o nodo) dentro del grafo biológico.
+ * En el contexto de este proyecto, cada vértice modela una Proteína específica.
+ * Contiene la información de la proteína (como su nombre) y la lista de sus conexiones.
  */
 public class Vertex {
     private String name;

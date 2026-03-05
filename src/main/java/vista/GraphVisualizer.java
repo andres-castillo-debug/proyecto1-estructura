@@ -18,6 +18,11 @@ import org.graphstream.ui.view.Viewer;
 import org.graphstream.ui.swing_viewer.SwingViewer;
 import org.graphstream.ui.swing_viewer.ViewPanel;
 
+/**
+ * Clase encargada de la representación visual del grafo biológico.
+ * y sus interacciones (aristas) de forma gráfica en la pantalla.
+ */
+
 public class GraphVisualizer {
     
     // Método para convertir tu BioGraph a un grafo de GraphStream [cite: 44]

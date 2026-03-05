@@ -6,7 +6,7 @@ package estructuras_primitivas;
 
 /**
  *
- * @author ile1
+ *"Clase genérica que representa un nodo individual en la lista enlazada."
  */
 public class Node<T> {
     private T data;
