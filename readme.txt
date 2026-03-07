@@ -5,9 +5,8 @@ e implementa algoritmos (BFS, Dijkstra, centralidad de grado) para identificar p
 esenciales (hubs) que son dianas terapéuticas en el desarrollo de fármacos.
 
 Integrantes:
-- [Nombre 1]
-- [Nombre 2]
-- [Nombre 3]
+- Santiago Rivero
+- Andrés castillo 
 
 Repositorio: https://github.com/andres-castillo-debug/proyecto1-estructura
 
